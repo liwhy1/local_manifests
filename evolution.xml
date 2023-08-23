@@ -32,7 +32,13 @@
     <!-- Proton-clang for older kernel building -->
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
     
-
+    <!-- Sync from LineageOS -->
+    
+    <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" revision="lineage-20.0" remote="github" />
+    <project path="hardware/qcom/sm7250/media" name="LineageOS/android_hardware_qcom_sm7250_media" revision="lineage-20.0" remote="github" />
+    <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" revision="lineage-20.0" remote="github" />
+    <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" revision="lineage-20.0" remote="github" />
+  
   
   
 </manifest>
