@@ -17,11 +17,20 @@
     
     
     
-    <!-- Google Pixel 4a -->
+    <!-- Denniz -->
     
-    <project path="device/google/sunfish" name="nattolecats/device_google_sunfish" revision="tiramisu" remote="github" />
-    <project path="kernel/google/msm-4.14" name="LineageOS/android_kernel_google_msm-4.14" revision="lineage-20" remote="github" />
-    <project path="vendor/google/sunfish" name="nattolecats/vendor_google_sunfish" revision="tiramisu" remote="github" />
+   <project path="device/oneplus/denniz" name="liwhy1/device_oneplus_denniz" revision="tiramisu" remote="github" />
+
+    <project path="kernel/oneplus/denniz" name="liwhy1/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
+
+    <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
+
+    <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
+    <project path="packages/apps/OneplusParts" name="liwhy1/packages_apps_OneplusParts" revision="tiramisu" remote="github" />
+
+    <!-- Proton-clang for older kernel building -->
+    <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
     
     <!-- Sync from LineageOS -->
     
