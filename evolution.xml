@@ -23,7 +23,7 @@
 
     <project path="kernel/oneplus/denniz" name="liwhy1/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
 
-    <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="13" remote="github" />
     <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
 
     <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
