@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  
-  
     <!-- GitHub -->
     <remote  name="github"
              fetch="https://github.com" />
-    
-    
-    
+  
     <!-- Delete conflicting repository -->
     <remove-project name="platform/hardware/qcom/sm7250/media" />
     <remove-project name="platform/hardware/qcom/sm7250/display" />
     <remove-project name="platform/hardware/qcom/sm8150/display" />
     <remove-project name="platform/hardware/qcom/sm8150/media" />
     
-    
-    
-    <!-- Denniz -->
-    
-   <project path="device/oneplus/denniz" name="liwhy1/device_oneplus_denniz" revision="tiramisu" remote="github" />
-
-    <project path="kernel/oneplus/denniz" name="liwhy1/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
-
-    <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="13" remote="github" />
-    <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
-
-    <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
-    <project path="packages/apps/OneplusParts" name="liwhy1/packages_apps_OneplusParts" revision="tiramisu" remote="github" />
-
-    <!-- Proton-clang for older kernel building -->
-    <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
-    
-    <!-- Sync from LineageOS -->
-    
+    <!-- Sync new repositories from LineageOS -->
     <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" revision="lineage-20.0" remote="github" />
     <project path="hardware/qcom/sm7250/media" name="LineageOS/android_hardware_qcom_sm7250_media" revision="lineage-20.0" remote="github" />
     <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" revision="lineage-20.0" remote="github" />
     <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" revision="lineage-20.0" remote="github" />
+    
+    <!-- Denniz -->    
+    <project path="device/oneplus/denniz" name="liwhy1/device_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="kernel/oneplus/denniz" name="liwhy1/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="13" remote="github" />
+    <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
+    <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
+    <project path="vendor/firmware/denniz" name="liwhy1/vendor_firmware_denniz" revision="tiramisu" remote="github" />
   
-  
-  
+    <!-- Proton-clang for older kernel building -->
+    <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" /> 
+
+    <!-- Other  -->
+    <project path="vendor/bcr" name="kenway214/vendor_bcr" revision="main" remote="github" />
+    <project path="packages/apps/prebuilt-apps" name="liwhy1/packages_apps_prebuilt-apps" revision="tiramisu" remote="github" />
+
 </manifest>
