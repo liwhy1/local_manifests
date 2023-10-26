@@ -23,7 +23,7 @@
     <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="13" remote="github" />
     <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
     <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
-    <project path="vendor/firmware/denniz" name="liwhy1/vendor_firmware_denniz" revision="tiramisu" remote="github" />
+    <project path="vendor/firmware/denniz" name="liwhy1/vendor_firmware_denniz" revision="main" remote="github" />
   
     <!-- Proton-clang for older kernel building -->
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" /> 
