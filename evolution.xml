@@ -18,7 +18,7 @@
     <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" revision="lineage-20.0" remote="github" />
     
     <!-- Sync Denniz repositories -->
-    <project path="device/oneplus/denniz" name="liwhy1/device_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="device/oneplus/denniz" name="liwhy1/device_oneplus_denniz" revision="udc" remote="github" />
     <project path="kernel/oneplus/denniz" name="liwhy1/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
     <project path="vendor/oneplus/denniz" name="liwhy1/vendor_oneplus_denniz" revision="13" remote="github" />
     <project path="vendor/oneplus/IMS-denniz" name="liwhy1/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
