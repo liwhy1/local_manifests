@@ -28,7 +28,7 @@
     <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" /> 
 
     <!-- Sync additional apps -->
-    <project path="packages/apps/OPlusExtras" name="liwhy1/packages_apps_OPlusExtras" revision="tiramisu" remote="github" /> 
+    <project path="packages/apps/OPlusExtras" name="Evolution-X-Devices/packages_apps_OPlusExtras" revision="tiramisu" remote="github" /> 
     <project path="packages/apps/ViPER4AndroidFX" name="/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" revision="tiramisu" remote="github" />
 
 </manifest>
