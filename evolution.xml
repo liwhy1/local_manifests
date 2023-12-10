@@ -29,6 +29,6 @@
 
     <!-- Sync additional apps -->
     <project path="packages/apps/OPlusExtras" name="Evolution-X-Devices/packages_apps_OPlusExtras" revision="tiramisu" remote="github" /> 
-    <project path="packages/apps/ViPER4AndroidFX" name="/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" revision="tiramisu" remote="github" />
+    <project path="packages/apps/ViPER4AndroidFX" name="xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" revision="13.0" remote="github" />
 
 </manifest>
