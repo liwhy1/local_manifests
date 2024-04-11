@@ -8,9 +8,6 @@
   <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="ossi" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" />
 
-  <!-- KernelSU Supports -->
-  <project path="kernel/oplus/mt6893/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
-
   <!-- Hardware -->
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-21" />
   <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" remote="ossi" />
