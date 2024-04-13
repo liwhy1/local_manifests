@@ -9,9 +9,8 @@
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-21" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
   <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" remote="ossi" />
-  <project path="hardware/mediatek/gnss" name="android_hardware_mediatek_gnss" remote="ossi" />
   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-21" />
   <!--<project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="github" revision="lineage-21" />-->
 
