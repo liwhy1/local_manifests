@@ -25,6 +25,5 @@
 
   <!-- Misc Packages -->
   <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" />
-  <project path="packages/apps/prebuilt-apps" name="android_packages_apps_prebuilt-apps" remote="ossi" />
 
 </manifest>
