@@ -5,9 +5,10 @@
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22" />
 
   <!-- MT6893 Common -->
-  <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="ossi" />
+  <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="liwhy1" />
   <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="liwhy1" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" />
+  <project path="vendor/oplus/denniz" name="android_vendor_oplus_denniz" remote="ossi" />
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" />
