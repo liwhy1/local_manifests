@@ -11,7 +11,7 @@
   <project path="vendor/oplus/denniz" name="android_vendor_oplus_denniz" remote="ossi" />
 
   <!-- Device -->
-  <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" />
+  <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="rising-15" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
