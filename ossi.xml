@@ -16,10 +16,10 @@
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
   <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" remote="ossi" />
-  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-21" />
+  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.0" />
 
   <!-- Oplus Camera -->
-  <project path="device/oplus/camera" name="android_device_oplus_camera" remote="ossi-gitlab" />
+  <project path="device/oplus/camera" name="android_device_oplus_camera" remote="ossi-gitlab" revision="lineage-22" />
 
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="android_prebuilts_clang_host_linux-x86_clang-r487747" remote="ossi-gitlab" clone-depth="1" revision="master" />
