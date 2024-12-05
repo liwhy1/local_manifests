@@ -13,7 +13,7 @@
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="rising-15" />
   <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="ossi" />
-  <project path="vendor/oplus/denniz-firmware" name="android_vendor_oneplus_denniz-firmware" remote="ossi-gitlab" clone-depth="1"/>
+  <project path="vendor/oplus/denniz-firmware" name="android_vendor_oneplus_denniz-firmware" remote="ossi-gitlab" clone-depth="1" revision="udc" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
