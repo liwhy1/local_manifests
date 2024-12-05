@@ -1,18 +1,19 @@
 <manifest>
 
   <remote name="ossi" fetch="https://github.com/oplus-ossi-development/" revision="lineage-21" />
-  <remote name="ossi-gitlab" fetch="https://gitlab.com/nattolecats/" revision="lineage-21" />
+  <remote name="ossi-gitlab" fetch="https://gitlab.com/nattolecats/"/>
+  <remote name="clang" fetch="https://gitlab.com/projectelixiros/"/>
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22" />
 
   <!-- MT6893 Common -->
   <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="liwhy1" />
   <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="liwhy1" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" />
-  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="ossi" />
-  <project path="packages/apps/ImsService-mt6893" name="packages_apps_ImsService-mt6893" remote="ossi" revision="13" />
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="rising-15" />
+  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="ossi" />
+  <project path="vendor/oplus/denniz-firmware" name="android_vendor_oneplus_denniz-firmware" remote="ossi-gitlab" clone-depth="1"/>
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
@@ -20,12 +21,13 @@
   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.0" />
 
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="android_prebuilts_clang_host_linux-x86_clang-r487747" remote="ossi-gitlab" clone-depth="1" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="android_prebuilts_clang_host_linux-x86_clang-r468909b" remote="clang" clone-depth="1" revision="master"/>
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
 
   <!-- Misc Packages -->
   <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" />
+  <project path="packages/apps/ImsService-mt6893" name="packages_apps_ImsService-mt6893" remote="ossi" revision="13" />
 
 </manifest>
