@@ -1,7 +1,7 @@
 <manifest>
 
   <remote name="ossi" fetch="https://github.com/oplus-ossi-development/" revision="lineage-21" />
-  <remote name="clang" fetch="https://gitlab.com/projectelixiros/"/>
+  <remote name="clang" fetch="https://gitlab.com/projectelixiros/" />
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22" />
 
   <!-- MT6893 Common -->
@@ -18,13 +18,12 @@
   <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" remote="ossi" />
 
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="android_prebuilts_clang_host_linux-x86_clang-r468909b" remote="clang" clone-depth="1" revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="android_prebuilts_clang_host_linux-x86_clang-r468909b" remote="clang" clone-depth="1" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
 
   <!-- Misc Packages -->
   <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" />
-  <project path="packages/apps/ImsService-mt6893" name="packages_apps_ImsService-mt6893" remote="ossi" revision="13" />
 
 </manifest>
