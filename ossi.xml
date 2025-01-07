@@ -1,6 +1,6 @@
 <manifest>
 
-  <remote name="ossi" fetch="https://github.com/oplus-ossi-development/" revision="lineage-21" />
+  <remote name="ossi" fetch="https://github.com/mt6893-development/" revision="lineage-21" />
   <remote name="clang" fetch="https://gitlab.com/projectelixiros/" revision="master" />
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22.1" />
 
