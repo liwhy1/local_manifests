@@ -10,7 +10,7 @@
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" />
 
   <!-- Device -->
-  <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="rising-6.1" />
+  <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="rising-6" />
   <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="ossi" />
 
   <!-- Hardware -->
