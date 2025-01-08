@@ -22,7 +22,4 @@
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
 
-  <!-- Misc Packages -->
-  <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" />
-
 </manifest>
