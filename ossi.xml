@@ -7,7 +7,7 @@
   <!-- MT6893 Common -->
   <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="liwhy1" />
   <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="ossi" revision="lineage-22.1" />
-  <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" revision="lineage-21" />
+  <project path="kernel/oplus/mt6893" name="soulspark666/android_kernel_oplus_mt6893" remote="github" revision="kernelsu-next" />
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="evox-10" />
