@@ -3,18 +3,20 @@
   <remote name="ossi" fetch="https://github.com/mt6893-development/" revision="lineage-21" />
   <remote name="clang" fetch="https://gitlab.com/projectelixiros/" revision="master" />
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22.1" />
+  <remote name="camera" fetch="https://gitlab.com/liwhy1/" revision="lineage-22.1" />
 
   <!-- MT6893 Common -->
   <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="liwhy1" />
-  <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="ossi" revision="lineage-22.1" />
+  <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="liwhy1" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="liwhy1" revision="kernelsu-next-susfs" />
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="evox-10" />
-  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" revision="lineage-21" />
+  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
+  <project path="hardware/oplus" name="hardware_oplus" remote="liwhy1" revision="vic" />
 
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="android_prebuilts_clang_host_linux-x86_clang-r468909b" remote="clang" clone-depth="1" />
@@ -24,5 +26,6 @@
 
   <!-- Misc Packages -->
   <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" revision="lineage-22.1" />
+  <project path="device/oplus/camera" name="android_device_oplus_camera" remote="camera" />
 
 </manifest>
