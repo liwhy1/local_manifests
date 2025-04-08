@@ -12,7 +12,7 @@
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" revision="evox-10" />
-  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" />
+  <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" revision="lineage-22.1_cam" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
