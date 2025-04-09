@@ -1,7 +1,6 @@
 <manifest>
 
   <remote name="ossi" fetch="https://github.com/mt6893-development/" revision="lineage-21" />
-  <remote name="clang" fetch="https://gitlab.com/nattolecats/" revision="master" />
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22.1" />
 
   <!-- MT6893 Common -->
@@ -15,9 +14,6 @@
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
-
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="android_prebuilts_clang_host_linux-x86_clang-r468909b" remote="clang" clone-depth="1" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
