@@ -14,7 +14,7 @@
   <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" revision="lineage-22.1_cam" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
