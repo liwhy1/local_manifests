@@ -1,19 +1,20 @@
 <manifest>
 
   <remote name="ossi" fetch="https://github.com/mt6893-development/" revision="lineage-21" />
-  <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22.1" />
-
+  <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-22.2" />
+  <remote name="kernel" fetch="https://github.com/dek0der/" revision="KSU-Next-SUSFS" />
+  
   <!-- MT6893 Common -->
   <project path="device/oplus/mt6893-common" name="android_device_oplus_mt6893-common" remote="liwhy1" />
   <project path="vendor/oplus/mt6893-common" name="proprietary_vendor_oplus_mt6893-common" remote="liwhy1" />
-  <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="liwhy1" revision="kernelsu-next-susfs" />
+  <project path="kernel/oplus/mt6893" name="kernel_realme_RMX3031" remote="kernel" />
 
   <!-- Device -->
   <project path="device/oplus/denniz" name="android_device_oplus_denniz" remote="liwhy1" />
   <project path="vendor/oplus/denniz" name="proprietary_vendor_oplus_denniz" remote="liwhy1" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" />
