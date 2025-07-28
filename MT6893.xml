@@ -6,7 +6,7 @@
   <remote name="clang" fetch="https://gitlab.com/crdroidandroid/" revision="14.0" />
 
   <!-- MT6893 Common -->
-  <project path="device/oplus/MT6893" name="android_device_oplus_MT6893" remote="liwhy1" revision="evox-11" />
+  <project path="device/oplus/MT6893" name="android_device_oplus_MT6893" remote="ossi" revision="evox-11" />
   <project path="vendor/oplus/MT6893" name="proprietary_vendor_oplus_MT6893" remote="liwhy1" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" revision="lineage-22.2" />
 
