@@ -8,7 +8,7 @@
   <!-- MT6893 Common -->
   <project path="device/oplus/MT6893" name="android_device_oplus_MT6893" remote="liwhy1" />
   <project path="vendor/oplus/MT6893" name="proprietary_vendor_oplus_MT6893" remote="liwhy1" />
-  <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" revision="lineage-22.2" />
+  <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" revision="lineage-23" />
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" />
