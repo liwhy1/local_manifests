@@ -4,7 +4,6 @@
   <remote name="liwhy1" fetch="https://github.com/liwhy1/" revision="lineage-23" />
   <remote name="camera" fetch="https://gitlab.com/liwhy1/" revision="main" />
   <remote name="clang" fetch="https://gitlab.com/crdroidandroid/" revision="14.0" />
-  <remote name="ims" fetch="https://github.com/techyminati/" revision="android-16" />
 
   <!-- MT6893 Common -->
   <project path="device/oplus/MT6893" name="android_device_oplus_MT6893" remote="ossi" revision="evox-11" />
@@ -13,9 +12,6 @@
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
-
-  <!-- IMS -->
-  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="ims" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="liwhy1" />
