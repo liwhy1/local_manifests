@@ -18,7 +18,6 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" />
 
   <!-- Misc Packages -->
-  <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="common" revision="lineage-22.1" />
   <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="camera" />
 
 </manifest>
