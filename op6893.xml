@@ -11,7 +11,7 @@
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="liwhy1" />
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="liwhy1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" />
   <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage" />
 
   <!-- SEPolicy -->
